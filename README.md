@@ -156,3 +156,19 @@ docker run -p 8000:8000 ritkriti/backend-pbl:latest
 - GitHub Actions CI/CD workflow
 - Automatic Docker image build
 - Automatic image push to Docker Hub
+- 
+## Final Output
+
+The GitHub Actions workflow successfully tested the FastAPI application, built the Docker image, and pushed it to Docker Hub.
+
+### Successful GitHub Actions Workflow
+
+![GitHub Actions Success](screenshots/github-actions-success.png)
+
+### Docker Image Published on Docker Hub
+
+The final Docker image is available as:
+
+`ritkriti/backend-pbl:latest`
+
+![Docker Hub Final Image](screenshots/dockerhub-image.png)
